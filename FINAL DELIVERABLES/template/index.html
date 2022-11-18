@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+    <script src="predict.js"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<style>
+
+a{
+    text-decoration: None;
+}
+
+body{
+    background-image: url('https://images.hindustantimes.com/img/2022/06/30/550x309/6b242762-f891-11ec-8608-e101559032f3_1656606499620.jpg');
+    background-repeat: no-repeat;
+    background-size: 1560px 800px;
+}
+a:visited{
+    color: black;
+}
+.nav-div{
+    margin: 0;
+    background: #ffffff;
+    border-radius: 5px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.active{
+    color: blue;
+}
+
+.nav-tab{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-tab-last{
+    margin-right: 50px;
+}
+
+.home-heading{
+    display: flex;
+    color: #000000;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Gabriola', sans-serif;
+}
+
+.home-content-para{
+    display: flex;
+    color: white;
+    margin: 0;
+    align-items: center;
+    font-family: 'Gabriola', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+.home-content{
+    margin: 50px;
+    background-color: rgb(79, 78, 78);
+    border: 1px solid black;
+    border-radius: 16px;
+    opacity: 93%;
+}
+.predict-content{
+    display: flex;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 16px;
+    opacity: 70%;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 20px;
+    background: #595858;
+}
+.btn { 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 16px;
+}
+.btn-choose {
+    background-color: white;
+}
+.btn-predict{
+    color: white;
+    background-color: palevioletred;
+}
+.info-content{
+    margin : 30px;
+    padding: 10px;
+    background-color: rgb(66, 66, 66);
+    opacity: 0.8;
+    display: flex;
+    border-radius: 16px;
+}
+
+
+.content,.image{
+    flex: 50%;
+    margin: 30px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.info-content-heading{
+    color: #ffffff;
+    font-family: 'Gabriola', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+.info-content-para{
+    color: #ffffff;
+    font-family: 'Gabriola', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 26px;
+}
+.info-content-picture{
+    margin:0;
+}
+
+</style>
+
+
+</head>
+<body>
+<div class="bg_image_body"></div>
+<div class="nav-div">
+    <nav class="index-nav">
+    <a class="active nav-tab">Home</a>
+    <a class="nav-tab" href="info.html">Info</a>
+    <a class="nav-tab nav-tab-last" href="predict.html">Predict</a>
+    </nav>
+</div>
+<div class="home-heading">
+    <h1>ECG arrhythmia classification using CNN</h1>
+</div>
+<div class="home-content">
+    <div class="home-content-para">
+        <p>
+            According to the World Health Organization (WHO), cardiovascular diseases (CVDs) are the number one cause of death today.
+            Over 17.7 million people died from CVDs in the year 2017 all over the world which is about 31% of all deaths,
+            and over 75% of these deaths occur in low and middle-income countries.
+            Arrhythmia is a representative type of CVD that refers to any irregular change from the normal heart rhythms.
+            There are several types of arrhythmia including atrial fibrillation, premature contraction, ventricular fibrillation, and tachycardia.
+            Although a single arrhythmia heartbeat may not have a serious impact on life, continuous arrhythmia beats can result in fatal circumstances.
+            In this project, we build an effective electrocardiogram (ECG) arrhythmia classification method using a convolutional neural network (CNN), in which we classify ECG into seven categories,
+            one being normal and the other six being different types of arrhythmia using deep two-dimensional CNN with grayscale ECG images.
+            We are creating a web application where the user selects the image which is to be classified. The image is fed into the model that is trained and the cited class will be displayed on the webpage.
+        </p>
+    </div>
+</div>
+</body>
+</html>

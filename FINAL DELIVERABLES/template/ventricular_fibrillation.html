@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@500&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='predict.js')}}"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+<div class="nav-div">
+    <nav class="index-nav">
+    <a class=" nav-tab">Home</a>
+    <a class="nav-tab" href="info.html">Info</a>
+    <a class="active nav-tab nav-tab-last" href="predict.html">Predict</a>
+    </nav>
+</div>
+<div class="home-heading">
+    <h1>Predicted result</h1>
+</div>
+<div class="home-content">
+    <div class="home-content-para">
+        <p>
+            You are diagonised with Ventricular Fibrillation.
+        </p>
+    </div>
+</div>
+</body>
+</html>
