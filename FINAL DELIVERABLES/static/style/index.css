@@ -1,0 +1,141 @@
+a{
+    text-decoration: None;
+}
+
+body{
+    background-image: url("E:\19euec060\bg_blurred_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a:visited{
+    color: black;
+}
+.nav-div{
+    margin: 0;
+    background: #ffffff;
+    border-radius: 5px;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.active{
+    color: blue;
+}
+
+.nav-tab{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-tab-last{
+    margin-right: 50px;
+}
+
+.home-heading{
+    display: flex;
+    color: #000000;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Gabriola', sans-serif;
+}
+
+.home-content-para{
+    display: flex;
+    color: white;
+    margin: 0;
+    align-items: center;
+    font-family: 'Gabriola', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+.home-content{
+    margin: 50px;
+    background-color: rgb(79, 78, 78);
+    border: 1px solid black;
+    border-radius: 16px;
+    opacity: 93%;
+}
+.predict-content{
+    display: flex;
+    color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 16px;
+    opacity: 70%;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 20px;
+    background: #595858;
+}
+.btn { 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 16px;
+}
+.btn-choose {
+    background-color: white;
+}
+.btn-predict{
+    color: white;
+    background-color: palevioletred;
+}
+.info-content{
+    margin : 30px;
+    padding: 10px;
+    background-color: rgb(66, 66, 66);
+    opacity: 0.8;
+    display: flex;
+    border-radius: 16px;
+}
+
+
+.content,.image{
+    flex: 50%;
+    margin: 30px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.info-content-heading{
+    color: #ffffff;
+    font-family: 'Gabriola', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+.info-content-para{
+    color: #ffffff;
+    font-family: 'Gabriola', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 26px;
+}
+.info-content-picture{
+    margin:0;
+}
